@@ -1,6 +1,17 @@
 # Chatting App
 
+Live demo: https://your-chat-app.herokuapp.com
+
 A simple Node.js and Socket.IO chat application built with Express.
+
+## Technologies Used
+
+- Node.js
+- Express
+- Socket.IO
+- WebSocket (via `websocket.io`)
+- HTML, CSS, JavaScript
+- GitHub Actions for CI/CD
 
 ## Features
 
@@ -27,33 +38,6 @@ npm start
 ```bash
 npm run dev
 ```
-
-## Build and Deployment
-
-This repository includes a GitHub Actions workflow at `.github/workflows/nodejs-deploy.yml`.
-
-The workflow:
-
-- installs dependencies
-- runs the build step
-- runs test verification
-- deploys to Heroku on pushes to `main`
-
-### Required GitHub Secrets
-
-Configure these repository secrets before deployment:
-
-- `HEROKU_API_KEY`
-- `HEROKU_APP_NAME`
-- `HEROKU_EMAIL`
-
-## Deployment Link
-
-Once deployed, update this section with your live app URL.
-
-Example:
-
-`https://your-chat-app.herokuapp.com`
 
 ## Notes
 
