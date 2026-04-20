@@ -1,6 +1,6 @@
 # Chatting App
 
-Live demo: https://your-chat-app.herokuapp.com
+Live demo: [Chatting App](https://simple-chatting-app-production.up.railway.app/)
 
 A simple Node.js and Socket.IO chat application built with Express.
 
