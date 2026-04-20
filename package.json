@@ -2,16 +2,13 @@
   "name": "chatting-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
     "start": "node server.js",
     "dev": "nodemon server.js",
     "build": "echo \"No build step required for this app\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "express": "^4.22.1",
